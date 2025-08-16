@@ -98,6 +98,7 @@ nav ul {
   display: flex;
   flex-direction: column;
 }
+
 .display-book-button {
   width: 100%;
   height: 50px;
@@ -110,13 +111,80 @@ nav ul {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
 .display-book-button:hover {
   background-color: hsl(0, 66%, 55%);
 }
+
 .display-book-button:active {
   background-color: hsl(0, 66%, 65%);
 }
 
 .barber-info {
   padding: 20px;
+}
+
+/* NEWSLETTER DISPLAY STYLING */
+.email-newsletter-container {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.email-newsletter-container img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.newsletter-info-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  margin: 0;
+  background-color: hsla(0, 0%, 82%, 0.703);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.newsletter-subscribe-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.newsletter-subscribe-container input {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid hsl(0, 0%, 86%);
+  padding-left: 10px;
+}
+
+.newsletter-subscribe-container button {
+  width: 50%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid hsl(0, 0%, 86%);
+}
+.newsletter-subscribe-container button:hover {
+  background-color: hsl(0, 66%, 55%);
+}
+
+.newsletter-subscribe-container button:active {
+  background-color: hsl(0, 66%, 65%);
+}
+/* FOOTER STYLING */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #FFF;
+  height: 100px;
+  margin-top: 100px;
 }

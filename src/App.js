@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/Navbar';
 import Hero from './components/Hero';
 import BarberDisplay from './components/BarberDisplay';
+import EmailNewsLetter from './components/EmailNewsLetter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       </Routes>
       <Hero />
       <BarberDisplay />
+      <EmailNewsLetter />
+      <Footer />
     </div>
   );
 }
