@@ -5,6 +5,8 @@ const app = express()          // create app first
 app.use(cors())                // then apply middleware
 app.use(express.json())  
 
+
+
 const barbers = [
   {
     id: 1,
@@ -46,4 +48,5 @@ app.post('/api/book', (req, res) => {
         res.json({success: true, message: `Booked ${slot} with ${barber.name}`})
 })
 
-app.listen(4000, () => console.log('Backend running on http://localhost:4000'))
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
