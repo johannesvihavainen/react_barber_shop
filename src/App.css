@@ -212,13 +212,19 @@ footer {
 
 @media (max-width: 1300px) {
   .barber-display-container {
-display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-  gap: 50px; /* spacing between cards */
-  justify-content: center; /* centers the grid */
-  padding: 50px; /* optional padding around the grid */
-  width: max-content; /* container shrinks to fit columns */
-  margin: 50px auto 0 auto; /* center container horizontally */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 equal columns */
+    gap: 50px;
+    /* spacing between cards */
+    justify-content: center;
+    /* centers the grid */
+    padding: 50px;
+    /* optional padding around the grid */
+    width: max-content;
+    /* container shrinks to fit columns */
+    margin: 50px auto 0 auto;
+    /* center container horizontally */
   }
 }
 
@@ -303,4 +309,144 @@ display: grid;
     font-size: 0.9rem;
   }
 
+}
+
+/* SERVICES STYLING */
+.services {
+  margin-top: 100px;
+}
+
+.services-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 350px 350px 350px;
+  gap: 50px;
+}
+
+.services-title {
+  font-size: 2.5rem;
+}
+
+.services-title,
+.services-address {
+  text-align: center;
+}
+
+.services-address {
+  margin-bottom: 50px;
+}
+
+
+.service {
+  background-color: hsl(30deg 0% 86%);
+  padding: 20px;
+}
+
+.service-pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service p:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: hsl(0, 66%, 45%);
+}
+
+.service button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid hsl(0, 0%, 86%);
+  background-color: hsl(0, 66%, 45%);
+  color: #FFF;
+  font-weight: bold;
+}
+
+.service button:hover {
+  background-color: hsl(0, 66%, 55%);
+}
+
+.service button:active {
+  background-color: hsl(0, 66%, 65%);
+}
+
+/* MEDIA QUERIES FOR SERVICES */
+@media (max-width: 1300px) {
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    /* 2 equal columns */
+    gap: 50px;
+    /* spacing between cards */
+    justify-content: center;
+    /* centers the grid */
+    padding: 50px;
+    /* optional padding around the grid */
+    width: max-content;
+    /* container shrinks to fit columns */
+    margin: 50px auto 0 auto;
+    /* center container horizontally */
+  }
+}
+
+@media (max-width: 870px) {
+  .services-container {
+    grid-template-columns: repeat(2, minmax(250px, 300px));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+@media (max-width: 770px) {
+  .services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .service {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .service {
+    width: 350px;
+  }
+}
+
+@media (max-width: 470px) {
+  .services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .service {
+    width: 300px;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.services {
+  flex: 1;
+  /* take all available space above footer */
 }
