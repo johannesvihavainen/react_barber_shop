@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react_barber_shop/static/css/main.aabd12e6.css",
+    "main.js": "/react_barber_shop/static/js/main.70566cd3.js",
+    "static/js/453.94f16bcb.chunk.js": "/react_barber_shop/static/js/453.94f16bcb.chunk.js",
+    "static/media/augustine_profile.jpg": "/react_barber_shop/static/media/augustine_profile.b1623769e1b70381b76f.jpg",
+    "static/media/barber_shop_hero.jpg": "/react_barber_shop/static/media/barber_shop_hero.dacd7634cf3556bffc9f.jpg",
+    "static/media/mitchell.jpg": "/react_barber_shop/static/media/mitchell.263e98d7d557fda54f28.jpg",
+    "static/media/alex.jpg": "/react_barber_shop/static/media/alex.c178ecc498b46f243ed1.jpg",
+    "static/media/michael_demoya.jpg": "/react_barber_shop/static/media/michael_demoya.c1da93d4f6cdcb38a60b.jpg",
+    "static/media/michael_profile.jpg": "/react_barber_shop/static/media/michael_profile.322c751fa06ae6b3cf46.jpg",
+    "static/media/michael_demoya2.jpg": "/react_barber_shop/static/media/michael_demoya2.97fec50cc6648c1d5726.jpg",
+    "static/media/mostafa.jpg": "/react_barber_shop/static/media/mostafa.03ade3331c892f15d10f.jpg",
+    "static/media/joffrey_profile.jpg": "/react_barber_shop/static/media/joffrey_profile.e0e8b56ac13b44aeedec.jpg",
+    "static/media/nate_profile.jpg": "/react_barber_shop/static/media/nate_profile.cb6ba2cd5712ea7ee68d.jpg",
+    "static/media/andre.jpg": "/react_barber_shop/static/media/andre.b8e752a9f8cc0ba4625e.jpg",
+    "static/media/newsletter_photo.jpg": "/react_barber_shop/static/media/newsletter_photo.7ce1a64a326c37b82364.jpg",
+    "static/media/salah.jpg": "/react_barber_shop/static/media/salah.52f21fa49e66caeef8c2.jpg",
+    "static/media/john_profile.jpg": "/react_barber_shop/static/media/john_profile.3504410c3e4813c16c0b.jpg",
+    "static/media/megan.jpg": "/react_barber_shop/static/media/megan.f66d4abcbad243f55d86.jpg",
+    "static/media/chris_knight.jpg": "/react_barber_shop/static/media/chris_knight.f4cf7ae69ee577c4f4ff.jpg",
+    "static/media/chris_profile.jpg": "/react_barber_shop/static/media/chris_profile.18e5bc2a67633aa567ab.jpg",
+    "index.html": "/react_barber_shop/index.html",
+    "main.aabd12e6.css.map": "/react_barber_shop/static/css/main.aabd12e6.css.map",
+    "main.70566cd3.js.map": "/react_barber_shop/static/js/main.70566cd3.js.map",
+    "453.94f16bcb.chunk.js.map": "/react_barber_shop/static/js/453.94f16bcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aabd12e6.css",
+    "static/js/main.70566cd3.js"
+  ]
+}
