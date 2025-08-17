@@ -2,19 +2,21 @@ import Footer from './Footer'
 import NavBar from './Navbar'
 import { useEffect, useState } from 'react'
 
+const BACKEND_URL = 'https://react-barber-shop.onrender.com'
+
 
 export default function BookBarber() {
     const [barbers, setBarbers] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:4000/api/barbers')
+        fetch(`${BACKEND_URL}/api/barbers`)
             .then(res => res.json())
             .then(data => setBarbers(data))
             .catch(err => console.error(err))
     }, [])
 
     const handleBook = (barberId, slot) => {
-        fetch('http://localhost:4000/api/book', {
+        fetch(`${BACKEND_URL}/api/book`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ barberId, slot })
