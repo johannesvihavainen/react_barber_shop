@@ -1,6 +1,10 @@
+html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
   background-color: hsl(223deg 19% 96%);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -97,6 +101,18 @@ nav ul {
   border-bottom-right-radius: 10px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.barber-title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+}
+
+.barber-description {
+  color: #333;
 }
 
 .display-book-button {
@@ -171,6 +187,7 @@ nav ul {
   box-sizing: border-box;
   border: 1px solid hsl(0, 0%, 86%);
 }
+
 .newsletter-subscribe-container button:hover {
   background-color: hsl(0, 66%, 55%);
 }
@@ -178,13 +195,107 @@ nav ul {
 .newsletter-subscribe-container button:active {
   background-color: hsl(0, 66%, 65%);
 }
+
 /* FOOTER STYLING */
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #222;
   color: #FFF;
   height: 100px;
   margin-top: 100px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1254px) {
+  .barber-display-container {
+    grid-template-columns: repeat(2, 300px);
+    gap: 100px;
+  }
+}
+
+@media (max-width: 870px) {
+  .barber-display-container {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter-info-container {
+    width: 600px;
+  }
+
+}
+
+@media (max-width: 870px) {
+
+
+  nav h1 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 25px;
+  }
+
+  nav ul li .nav-link {
+    font-size: 1.1rem;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: inherit;
+    background-color: hsl(0, 66%, 45%);
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .barber-display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barber-card {
+    background-color: hsl(0, 0%, 86%);
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsletter-info-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    margin: 0;
+    background-color: hsla(0, 0%, 82%, 0.703);
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter-info-container p {
+    font-size: 1.6rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+
 }

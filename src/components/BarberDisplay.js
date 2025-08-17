@@ -43,7 +43,7 @@ export default function BarberDisplay() {
             <div className="barber-card">
                 <img src={michaelProfile} alt="a profile of Michael" />
                 <div className="barber-info">
-                    <p className='barber-title'>John</p>
+                    <p className='barber-title'>Michael</p>
                     <p className='barber-description'>Michael has 10 years of experience, specializing in modern fades and beard sculpting. With a creative eye and steady hand, he ensures every client leaves looking sharp and confident.</p>
                 </div>
                 <button className='display-book-button'>BOOK</button>
@@ -51,7 +51,7 @@ export default function BarberDisplay() {
             <div className="barber-card">
                 <img src={nateProfile} alt="a profile of Nate" />
                 <div className="barber-info">
-                    <p className='barber-title'>John</p>
+                    <p className='barber-title'>Nate</p>
                     <p className='barber-description'>Nate is a skilled barber with 6 years of experience, known for his precision cuts and friendly demeanor. He enjoys helping clients find the perfect style that suits their personality.</p>
                 </div>
                 <button className='display-book-button'>BOOK</button>
