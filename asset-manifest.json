@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_barber_shop/static/css/main.aabd12e6.css",
-    "main.js": "/react_barber_shop/static/js/main.70566cd3.js",
+    "main.js": "/react_barber_shop/static/js/main.f436d313.js",
     "static/js/453.94f16bcb.chunk.js": "/react_barber_shop/static/js/453.94f16bcb.chunk.js",
     "static/media/augustine_profile.jpg": "/react_barber_shop/static/media/augustine_profile.b1623769e1b70381b76f.jpg",
     "static/media/barber_shop_hero.jpg": "/react_barber_shop/static/media/barber_shop_hero.dacd7634cf3556bffc9f.jpg",
@@ -22,11 +22,11 @@
     "static/media/chris_profile.jpg": "/react_barber_shop/static/media/chris_profile.18e5bc2a67633aa567ab.jpg",
     "index.html": "/react_barber_shop/index.html",
     "main.aabd12e6.css.map": "/react_barber_shop/static/css/main.aabd12e6.css.map",
-    "main.70566cd3.js.map": "/react_barber_shop/static/js/main.70566cd3.js.map",
+    "main.f436d313.js.map": "/react_barber_shop/static/js/main.f436d313.js.map",
     "453.94f16bcb.chunk.js.map": "/react_barber_shop/static/js/453.94f16bcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aabd12e6.css",
-    "static/js/main.70566cd3.js"
+    "static/js/main.f436d313.js"
   ]
 }
