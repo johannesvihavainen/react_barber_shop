@@ -2,7 +2,7 @@ import Footer from './Footer'
 import NavBar from './Navbar'
 import { useEffect, useState } from 'react'
 
-const BACKEND_URL = 'https://react-barber-shop.onrender.com'
+const BACKEND_URL = 'https://react-barber-shop-backend.onrender.com'
 
 
 export default function BookBarber() {
